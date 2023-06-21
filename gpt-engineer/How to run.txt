@@ -1,0 +1,33 @@
+Prerequesites (python 3.11.3, lastest version of anaconda, pip)
+
+1.go to address bar of gpt-engineer (not gpt_engineer)
+
+2.write cmd and click enter to open command prompt in that directory
+
+3.type 
+
+conda create -- gpt-eng python=3.11.3
+
+this will create your conda environment
+
+4. press y to install neccesary packages
+
+5. type 
+
+conda activate gpt-eng
+
+6.type
+
+-m pip install -r requiements.txt
+
+this will install all the necessary requirments
+
+7.  Now we need to start text gen web ui. Load a model and start it in api mode. Watch the beggining of this tutorial (start at 3:11) for how to set that up. 
+https://www.youtube.com/watch?v=U-2PuNRQzXE&t=62s
+
+8. now back at the first command promt in gpt engineer
+type
+
+python __main__.py example
+
+This will run the program, replace example with the project folder you made with your own main_prompt text file. 
