@@ -6,7 +6,7 @@ Prerequesites (python 3.11.3, lastest version of anaconda, pip)
 
 3.type 
 
-conda create -- name gpt-eng python=3.11.3
+conda create --name gpt-eng python=3.11.3
 
 this will create your conda environment
 
